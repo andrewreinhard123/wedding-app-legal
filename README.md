@@ -1,5 +1,7 @@
 # The Big Day — legal and support pages
 
+Andrew filled identity, address, governing law, and the contact email on 15 November 2026. A lawyer review and the remaining placeholders are still required before publish.
+
 Draft date: **15 November 2026**. These pages are drafts for Andrew and a lawyer. They are not legal advice. They are **not in force**. Do not publish this branch, and do not paste the URLs below into App Store Connect or Google Play, until the placeholders are filled and a lawyer has reviewed the text.
 
 This folder replaces the older Andrew & Melissa one-wedding pages (`index.html`, `privacy.html`, `support.html`) with product-level pages for **The Big Day** (App Store display name: “The Big Day: Wedding Guest App”).
@@ -47,14 +49,14 @@ The same list is in `PLACEHOLDERS.md`, with a bit more guidance. Nothing in brac
 
 ### Identity and contact
 
-- [LEGAL ENTITY NAME — Andrew to fill] — operator of the commercial product. Not “Andrew & Melissa Reinhard” unless a lawyer confirms that is the entity. No LLC or DBA was invented.
-- [BUSINESS ADDRESS — Andrew to fill] — mailing address. No street was invented.
-- [SUPPORT EMAIL IF DIFFERENT] — optional. The address in use is andrewreinhard0@gmail.com.
+- Done — operator: Andrew Reinhard, a sole proprietor doing business as “The Big Day”. No LLC. Not “Andrew & Melissa Reinhard”.
+- Done — business address: 148 Coleto Trail, Bastrop, TX 78602, US.
+- Done — contact email: andrewreinhard0@gmail.com. Andrew confirmed this inbox. The optional second-email placeholder was removed. No second email.
 
 ### Law and disputes
 
-- [GOVERNING STATE — Texas likely; Andrew to confirm] — Texas is not stated as decided.
-- [COURTS / VENUE — Andrew and a lawyer to fill]
+- Done — governing law: the law of Texas, together with United States federal law where it applies. The existing conflict-of-law sentence stays.
+- Done — courts: courts in Bastrop County, Texas. A consumer may have a right to sue at home that these terms cannot take away.
 - [ARBITRATION — lawyer to decide whether to add a clause] — none is included. No class-action waiver is included.
 - [MINIMUM AGE TO BUY — lawyer to confirm] — draft assumes 18 for the paying person.
 - [LIABILITY CAP — lawyer to confirm] — suggestion, not a decision: the greater of fees paid for that wedding in the prior twelve months, and US$50.
@@ -94,7 +96,7 @@ Still open:
 ## What a lawyer should review
 
 - The whole draft, before any store listing points at it. It was not written by a lawyer and it is not in force.
-- Whether Texas really is the governing law, and which courts.
+- The governing-law and venue sentences, which now state Texas law and courts in Bastrop County, Texas.
 - Whether to add arbitration or a class-action waiver. Neither is in the draft.
 - The liability cap suggestion (fees paid in the prior twelve months, with a US$50 floor).
 - Setup-fee refunds, Signature deposits, and auto-renewal wording. Cancellation timing must match the real Stripe Customer Portal settings and state auto-renewal laws (price, renewal period, how to cancel).
@@ -110,4 +112,4 @@ Still open:
 
 ## Facts this draft deliberately does not invent
 
-No legal entity name, no street address, no second support email, no tax treatment, no card-statement descriptor, no definition of a change round, no setup-fee refund rule, no Signature quote expiry or deposit, no “storage included with setup” period, no partial-month refund rule, no grandfathered subscription price, no retention period for billing email, no effective date. The contact email is the one already on the public pages: andrewreinhard0@gmail.com.
+No tax treatment, no card-statement descriptor, no definition of a change round, no setup-fee refund rule, no Signature quote expiry or deposit, no “storage included with setup” period, no partial-month refund rule, no grandfathered subscription price, no retention period for billing email, no effective date, and no second support email. Filled on 15 November 2026: the operator is Andrew Reinhard, a sole proprietor doing business as “The Big Day”; the business address is 148 Coleto Trail, Bastrop, TX 78602, US; the governing law is the law of Texas and disputes are heard in courts in Bastrop County, Texas; the contact email is andrewreinhard0@gmail.com.

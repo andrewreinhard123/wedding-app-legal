@@ -1,19 +1,21 @@
 # Placeholders Andrew must fill
 
+Andrew filled identity, address, governing law, and the contact email on 15 November 2026. A lawyer review and the remaining placeholders are still required before publish.
+
 Draft date: 15 November 2026. These pages are not in force. Do not publish this branch to GitHub Pages, and do not paste the URLs into App Store Connect or Google Play, until every required item below is filled and a lawyer has reviewed the pages.
 
 Highlighted text on the site uses the same bracket labels as this list. Optional items say so. Suggested numbers (the liability floor, age 18) are suggestions inside the pages. They are not decisions.
 
 ## Identity and contact
 
-- [ ] **[LEGAL ENTITY NAME — Andrew to fill]** — Who operates The Big Day. Do not use “Andrew & Melissa Reinhard” as the commercial entity unless a lawyer says that is the actual operator. Do not invent an LLC or DBA name here; write the real one. Pages: all.
-- [ ] **[BUSINESS ADDRESS — Andrew to fill]** — Mailing address for legal notices. Do not invent a street. Pages: all except the short home intro (home links the operator; privacy, terms, refunds, and support show the address).
-- [ ] **[SUPPORT EMAIL IF DIFFERENT]** — Optional. The contact in use is andrewreinhard0@gmail.com, already on the public legal site. Leave the product on that inbox, or write a different address and then replace the mailto links. Pages: all.
+- [x] **Operator** — Andrew Reinhard, a sole proprietor doing business as “The Big Day”. No LLC. Not “Andrew & Melissa Reinhard”. Filled 15 November 2026. Pages: all.
+- [x] **Business address** — 148 Coleto Trail, Bastrop, TX 78602, US. Filled 15 November 2026. Pages: privacy, terms, refunds, and support. Home names the operator and does not repeat the street.
+- [x] **Contact email** — andrewreinhard0@gmail.com. Andrew confirmed this inbox. The optional second-email placeholder was removed. No second email. Filled 15 November 2026. Pages: all.
 
 ## Law and disputes
 
-- [ ] **[GOVERNING STATE — Texas likely; Andrew to confirm]** — Texas is likely only. The old one-wedding policy said Texas, and the demo venue (Red Ridge) is in Texas. Do not publish Texas as decided until you confirm it. Page: terms.
-- [ ] **[COURTS / VENUE — Andrew and a lawyer to fill]** — Which courts hear disputes after the state is chosen. Page: terms.
+- [x] **Governing law** — The law of Texas, together with United States federal law where it applies. The existing conflict-of-law sentence stays. Decided 15 November 2026. Page: terms.
+- [x] **Courts** — Courts in Bastrop County, Texas. The terms keep the sentence that a consumer may have a right to sue at home that these terms cannot take away. Decided 15 November 2026. Page: terms.
 - [ ] **[ARBITRATION — lawyer to decide whether to add a clause]** — This draft has no arbitration clause and no class-action waiver. Decide whether to add either. Page: terms.
 - [ ] **[MINIMUM AGE TO BUY — lawyer to confirm]** — Draft assumes 18 for the person who pays. Confirm or replace. Page: terms.
 - [ ] **[LIABILITY CAP — lawyer to confirm]** — Suggested, not decided: the greater of fees the couple paid for that wedding in the prior twelve months, and US$50. The US$50 idea exists so a guest (who pays nothing) is not capped at zero. Page: terms.
