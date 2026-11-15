@@ -1,14 +1,12 @@
 # Placeholders Andrew must fill
 
-Andrew filled identity, address, governing law, and the contact email on 15 November 2026. A lawyer review and the remaining placeholders are still required before publish.
+Andrew filled identity, address, governing law, and the contact email on 15 November 2026, and confirmed the 24/7 AI email support policy the same day. The other remaining policy gaps were filled on 15 November 2026 with conservative defaults, each labeled “default — Andrew to confirm.” The designated copyright agent is still an open TODO (register with the US Copyright Office, $6, before launch). A lawyer review is still required before publish. These pages are still drafts and are not in force.
 
 Draft date: 15 November 2026. These pages are not in force. Do not publish this branch to GitHub Pages, and do not paste the URLs into App Store Connect or Google Play, until every required item below is filled and a lawyer has reviewed the pages.
 
-Highlighted text on the site uses the same bracket labels as this list. Optional items say so. Suggested numbers (the liability floor, age 18) are suggestions inside the pages. They are not decisions.
-
 ## Identity and contact
 
-- [x] **Operator** — Andrew Reinhard, a sole proprietor doing business as “The Big Day”. No LLC. Not “Andrew & Melissa Reinhard”. Filled 15 November 2026. Pages: all.
+- [x] **Operator** — Andrew Reinhard, a sole proprietor doing business as "The Big Day". No LLC. Not "Andrew & Melissa Reinhard". Filled 15 November 2026. Pages: all.
 - [x] **Business address** — 148 Coleto Trail, Bastrop, TX 78602, US. Filled 15 November 2026. Pages: privacy, terms, refunds, and support. Home names the operator and does not repeat the street.
 - [x] **Contact email** — andrewreinhard0@gmail.com. Andrew confirmed this inbox. The optional second-email placeholder was removed. No second email. Filled 15 November 2026. Pages: all.
 
@@ -16,47 +14,44 @@ Highlighted text on the site uses the same bracket labels as this list. Optional
 
 - [x] **Governing law** — The law of Texas, together with United States federal law where it applies. The existing conflict-of-law sentence stays. Decided 15 November 2026. Page: terms.
 - [x] **Courts** — Courts in Bastrop County, Texas. The terms keep the sentence that a consumer may have a right to sue at home that these terms cannot take away. Decided 15 November 2026. Page: terms.
-- [ ] **[ARBITRATION — lawyer to decide whether to add a clause]** — This draft has no arbitration clause and no class-action waiver. Decide whether to add either. Page: terms.
-- [ ] **[MINIMUM AGE TO BUY — lawyer to confirm]** — Draft assumes 18 for the person who pays. Confirm or replace. Page: terms.
-- [ ] **[LIABILITY CAP — lawyer to confirm]** — Suggested, not decided: the greater of fees the couple paid for that wedding in the prior twelve months, and US$50. The US$50 idea exists so a guest (who pays nothing) is not capped at zero. Page: terms.
-- [ ] **[EU OR UK REPRESENTATIVE, IF REQUIRED — Andrew and a lawyer to decide]** — None is named. Pages: privacy, terms.
-- [ ] **[INTERNATIONAL TRANSFER SAFEGUARD — lawyer to confirm]** — What mechanism applies if guests or couples are in the EEA, the UK, or another region with transfer rules. Do not claim standard contractual clauses are signed unless they are. Page: privacy.
+- [x] **Arbitration** — No mandatory arbitration clause. Disputes may be brought in the courts already named (Bastrop County, Texas), and small-claims court is allowed where the claim qualifies. No class-action waiver. Default applied 15 November 2026 — Andrew to confirm. Page: terms.
+- [x] **Minimum age to buy** — 18 years old. The person who pays for setup or storage must be 18 or older. Guests who only view or upload are not required to be the buyer; this rule is for the person who enters the paid contract. Default applied 15 November 2026 — Andrew to confirm. Page: terms.
+- [x] **Liability cap** — The greater of (a) the amounts the couple paid us for that wedding in the twelve months before the claim and (b) US$100. The US$100 floor means a guest, who pays no fee, is not capped at zero. Limits do not apply where a law forbids them (fraud, willful misconduct, death or personal injury caused by negligence, or places that do not allow a cap). Default applied 15 November 2026 — Andrew to confirm. Page: terms.
+- [x] **EU or UK representative** — None appointed. The service is operated from the United States and is not directed at people in the EEA or the UK. Stated plainly on terms and privacy. Default applied 15 November 2026 — Andrew to confirm. Pages: privacy, terms.
+- [x] **International transfer safeguard** — Personal data is processed in the United States. Where a safeguard is required for data from the EEA, the UK, or another region with transfer rules, the intended mechanism is the European Commission's Standard Contractual Clauses and the UK equivalent, to the extent they are needed and available with our processors. The clauses are not claimed to be in place with every processor at the time this draft was written. Default applied 15 November 2026 — Andrew to confirm. Page: privacy.
 
 ## Setup fees
 
-- [ ] **[WHAT COUNTS AS ONE ROUND OF CHANGES — Andrew to define]** — Also define one additional $10 change, who may request it, and how. Each tier includes 3 rounds, then $10. The pages do not define a “round.” Pages: terms, refunds, support.
-- [ ] **[HOW THE $10 CHANGE FEE IS BILLED — Andrew to fill]** — Before the work, after the work, or on a later Stripe charge. Not an in-app purchase. Pages: terms, refunds, support.
-- [ ] **[SETUP FEE REFUND RULES — Andrew and a lawyer to fill]** — The draft does not say setup fees are refundable, and it does not say they are non-refundable. Cover: cancel before work starts; cancel after delivery of the pages, code, and link; couple calls off the real wedding; dissatisfaction; Signature deposits; effect of used change rounds; consumer cooling-off rights the page cannot waive. Pages: terms, refunds, support.
-- [ ] **[SIGNATURE QUOTE TERMS — Andrew to fill]** — How long a quote lasts, whether a deposit is required, what the quote includes, and which later edits are inside the 3 rounds. Price is $250 and up, quoted per feature. Pages: terms, refunds, support.
-- [ ] **[WHETHER LISTED PRICES INCLUDE TAX — Andrew to confirm]** — Pages: terms, refunds, support.
-- [ ] **[CARD STATEMENT DESCRIPTOR — Andrew to fill]** — The text a couple sees on a card statement. Pages: terms, refunds, support.
+- [x] **What counts as one round of changes** — One consolidated list of edits submitted together by the couple or someone they authorize in writing or by email. A later, separate list is a new round. The three included rounds apply on every tier. Requests must come from the couple using the billing or support email, or from an authorized person. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
+- [x] **How the $10 change fee is billed** — After three rounds, each additional consolidated list is $10. Billed on the website via a Stripe invoice or payment link. Due before the change is made. Not an in-app purchase. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
+- [x] **Setup fee refund rules** — Stage-based: fully refundable before setup work starts; 50% refundable after work starts but before publish; non-refundable after publish (except where a law requires otherwise). Applies for cancellation, calling off the real wedding, or dissatisfaction. Used or unused rounds do not change the percentage. For Signature, the same stages apply to the quoted fee; the 50% deposit is credited; if 50% is due, the kept half may be the deposit. Statutory and cooling-off rights preserved. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
+- [x] **Signature quote terms** — Quotes valid for 30 days from send date. 50% deposit required to begin work, paid on the website via Stripe, credited toward the final quoted price. Quote states features included. Later edits use the three included rounds, then $10. Features not in the accepted quote are a new quote, not an included round. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
+- [x] **Whether listed prices include tax** — Listed prices exclude applicable sales tax. Tax is added where required and shown before payment. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
+- [x] **Card statement descriptor** — THE BIG DAY. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
 
 ## Storage and retention
 
-Known facts are already written in prose. These gaps are not:
-
-- [ ] **[CAN A WEDDING BE PUBLISHED WITH NO STORAGE SUBSCRIPTION — Andrew to confirm]** — Storage is described as optional. The pages do not say that the setup fee includes media hosting. Pages: privacy, terms, refunds, support.
-- [ ] **[WHEN A CANCELLATION TAKES EFFECT — Andrew to confirm]** — End of the current paid month, or immediately with no partial-month refund. There is no separate cancellation fee. Couples may cancel anytime. Pages: terms, refunds, support.
-- [ ] **[WHETHER EXISTING SUBSCRIBERS KEEP THEIR PRICE — Andrew to confirm]** — If the list price changes, does a current couple keep $9.99 / $2? Pages: terms, refunds.
-- [ ] **[HOW TO REMOVE AN EXTRA 10 GB BLOCK — Andrew to fill]** — Whether a $2 block can be dropped, and whether files must be deleted first. Pages: terms, refunds, support.
-- [ ] **[WHETHER NEW UPLOADS CONTINUE DURING THE 30-DAY WARNING — Andrew to confirm]** — The 30-day warning and Download All during that window are already promised. New uploads during the window are not. Pages: privacy, terms, refunds, support.
-- [ ] **[WHAT HAPPENS TO NON-MEDIA PAGES AFTER STORAGE STOPS — Andrew to confirm]** — Schedule, story, seating, and similar text. Media deletion is specified. These pages are not. Pages: privacy, terms, refunds, support.
-- [ ] **[HOW LONG BILLING AND SUPPORT EMAILS ARE KEPT — Andrew and a lawyer to fill]** — Billing records are kept for tax, accounting, and disputes. The period is blank. Pages: privacy, terms.
+- [x] **Can a wedding be published with no storage subscription** — Yes. A wedding can be published without a storage subscription, but it stays read-only: guests cannot upload photos or videos unless a storage subscription is active. A storage subscription is required while guests can upload. Setup does not include ongoing media hosting. The "optional" description of storage has been updated to reflect this rule across all pages. Default applied 15 November 2026 — Andrew to confirm. Pages: privacy, terms, refunds, support.
+- [x] **When a cancellation takes effect** — At the end of the current billing period. No partial-month refund. No separate cancellation fee. Future charges stop once the cancellation takes effect. Cancel via the Stripe customer portal or by emailing from the billing email with the wedding code. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
+- [x] **Whether existing subscribers keep their price** — Yes, for at least 12 months after a price increase is announced. At least 30 days' email notice to the billing address before the increase. After 12 months, the new price may apply. Where a law requires a longer notice or a right to cancel, we follow that law. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds.
+- [x] **How to remove an extra 10 GB block** — Go to admin or email support. Removal takes effect at the start of the next billing period, and only if current usage fits in the remaining quota. We will not remove a block mid-period if files still need that space. Default applied 15 November 2026 — Andrew to confirm. Pages: terms, refunds, support.
+- [x] **Whether new uploads continue during the 30-day warning** — Yes, with one limit. New uploads may continue unless the wedding is at 100% and the storage-full choice is "stop new uploads." Download All remains available during the full warning window. Default applied 15 November 2026 — Andrew to confirm. Pages: privacy, terms, refunds, support.
+- [x] **What happens to non-media pages after storage stops** — The schedule, story, seating chart, and similar text stay online in a read-only form after the media warning window ends. They are not deleted on the same schedule as photos and videos. Default applied 15 November 2026 — Andrew to confirm. Pages: privacy, terms, refunds, support.
+- [x] **How long billing and support emails are kept** — Billing records: 7 years (tax, accounting, payment disputes). Support emails: 2 years. Default applied 15 November 2026 — Andrew to confirm. Pages: privacy, terms.
 
 ## Notices, copyright, support operations
 
-- [ ] **[HOW FAR AHEAD MATERIAL CHANGES ARE ANNOUNCED — Andrew and a lawyer to fill]** — How you will tell people, including whether the billing email is used. Pages: privacy, terms, refunds.
-- [ ] **[DESIGNATED COPYRIGHT AGENT, IF YOU REGISTER ONE — Andrew to fill]** — Optional until you decide to register one. Until then, copyright reports go to the support email. Pages: privacy, terms, support.
-- [ ] **[TYPICAL REPLY TIME — Andrew to fill]** — Do not publish a promise you cannot meet. Pages: terms, support.
-- [ ] **[WEDDING-DAY SUPPORT HOURS — Andrew to fill]** — Or delete the placeholder if there is no separate wedding-day coverage. Pages: terms, support.
+- [x] **How far ahead material changes are announced** — At least 30 days in advance by email to the billing or account email on file. The date at the top of the page will also change. Default applied 15 November 2026 — Andrew to confirm. Pages: privacy, terms, refunds.
+- [ ] **Designated copyright agent** — No designated DMCA agent is registered with the US Copyright Office yet. **TODO: register a DMCA designated agent with the US Copyright Office ($6) before launch.** Until one is registered, copyright reports go to andrewreinhard0@gmail.com with the wedding code, a description of the work, where it appears, and the reporter's contact information. A clearly marked TODO span (`<span class="ph">[TODO — register a DMCA designated agent with the US Copyright Office ($6) before launch]</span>`) remains on terms.html, privacy.html, and support.html. Pages: privacy, terms, support.
+- [x] **Typical reply time and wedding-day support** — Support is 24/7 by email at andrewreinhard0@gmail.com. Emails are read and handled automatically by an AI support agent, with replies typically within minutes to a few hours. Anything that needs a human (including refunds and account issues) is escalated. No separate wedding-day phone line. No promise of instant or around-the-clock human coverage. **Confirmed by Andrew, 15 November 2026.** No "to confirm" label. Pages: terms, support.
 
-## Already decided in the draft (do not “fill” these; a lawyer still reviews them)
+## Already decided in the draft (do not "fill" these; a lawyer still reviews them)
 
 - Classic $50, Custom about $125 (exact amount shown at checkout), Signature $250 and up.
-- 3 rounds of changes on every tier, then $10 per additional change. The meaning of a round is still open.
+- 3 rounds of changes on every tier, then $10 per additional change.
 - Storage $9.99 per month for 10 GB, plus $2 per month per extra 10 GB block. Cancel anytime. No separate cancellation fee.
 - Full-storage choices: delete oldest (warn first; remind Download All), stop new uploads (the default), or auto-add blocks. Warnings at 80% and at 100% for all three.
-- At least 30 days’ warning to the billing email before media deletion when paid storage stops, with Download All available during that warning. No indefinite retention.
+- At least 30 days' warning to the billing email before media deletion when paid storage stops, with Download All available during that warning. No indefinite retention.
 - Guests: no account, optional display name, random on-device guest id, self-delete, couple and admin moderation.
 - Contact email in use: andrewreinhard0@gmail.com.
 - Couples pay on the website via Stripe, not as an in-app purchase. Full card numbers are not received.

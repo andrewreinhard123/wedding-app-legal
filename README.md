@@ -45,7 +45,9 @@ Every page has a visible draft banner.
 
 ## Placeholders to fill
 
-The same list is in `PLACEHOLDERS.md`, with a bit more guidance. Nothing in brackets was invented as fact.
+The same list is in `PLACEHOLDERS.md`, with a bit more guidance.
+
+On 15 November 2026, identity, governing law, and courts were filled, and Andrew confirmed the 24/7 AI email support policy. The other remaining policy gaps were filled the same day as conservative defaults (labeled “default — Andrew to confirm” in PLACEHOLDERS.md). The designated copyright agent is still an open TODO. The pages are still drafts. A lawyer review is still required before publish.
 
 ### Identity and contact
 
@@ -57,41 +59,40 @@ The same list is in `PLACEHOLDERS.md`, with a bit more guidance. Nothing in brac
 
 - Done — governing law: the law of Texas, together with United States federal law where it applies. The existing conflict-of-law sentence stays.
 - Done — courts: courts in Bastrop County, Texas. A consumer may have a right to sue at home that these terms cannot take away.
-- [ARBITRATION — lawyer to decide whether to add a clause] — none is included. No class-action waiver is included.
-- [MINIMUM AGE TO BUY — lawyer to confirm] — draft assumes 18 for the paying person.
-- [LIABILITY CAP — lawyer to confirm] — suggestion, not a decision: the greater of fees paid for that wedding in the prior twelve months, and US$50.
-- [EU OR UK REPRESENTATIVE, IF REQUIRED — Andrew and a lawyer to decide] — none named.
-- [INTERNATIONAL TRANSFER SAFEGUARD — lawyer to confirm] — do not claim a transfer tool is in place.
+- Done (default) — no mandatory arbitration clause. Disputes in courts already named; small-claims court allowed where claim qualifies. No class-action waiver. Andrew to confirm.
+- Done (default) — minimum age to buy: 18. Applies to the person who pays. Guests who only view or upload are not required to be the buyer. Andrew to confirm.
+- Done (default) — liability cap: the greater of fees paid for that wedding in the prior twelve months and US$100. The US$100 floor means a guest is not capped at zero. Limits do not apply where a law forbids them. Andrew to confirm.
+- Done (default) — no EU or UK representative. The service is operated from the United States and is not directed at people in the EEA or the UK. Andrew to confirm.
+- Done (default) — international transfer safeguard: intended mechanism is the European Commission’s Standard Contractual Clauses and the UK equivalent, to the extent needed and available with our processors. Not claimed to be in place with every processor. Andrew to confirm.
 
 ### Setup fees
 
-- [WHAT COUNTS AS ONE ROUND OF CHANGES — Andrew to define] — prices say 3 rounds, then $10. “Round” is undefined.
-- [HOW THE $10 CHANGE FEE IS BILLED — Andrew to fill]
-- [SETUP FEE REFUND RULES — Andrew and a lawyer to fill] — the draft neither promises nor refuses a setup-fee refund. Cover cancel-before-work, cancel-after-delivery, calling off the real wedding, dissatisfaction, Signature deposits, used change rounds, and mandatory consumer cooling-off rights.
-- [SIGNATURE QUOTE TERMS — Andrew to fill] — quote lifetime, deposit, what is included. Price is $250 and up.
-- [WHETHER LISTED PRICES INCLUDE TAX — Andrew to confirm]
-- [CARD STATEMENT DESCRIPTOR — Andrew to fill]
+- Done (default) — round of changes: one consolidated list of edits submitted together. A later list starts a new round. Requests from the couple or an authorized person using the billing or support email. Andrew to confirm.
+- Done (default) — $10 change fee: billed on the website via a Stripe invoice or payment link, due before the change is made. Not an in-app purchase. Andrew to confirm.
+- Done (default) — setup fee refund rule: stage-based (fully refundable before work starts; 50% after work starts but before publish; non-refundable after publish, except where a law requires otherwise). Statutory rights preserved. Andrew to confirm.
+- Done (default) — Signature quote terms: 30-day validity; 50% deposit via Stripe credited toward final price; quote states features included; features not in quote are a new quote. Andrew to confirm.
+- Done (default) — prices exclude tax; tax added where required and shown before payment. Andrew to confirm.
+- Done (default) — card statement descriptor: THE BIG DAY. Andrew to confirm.
 
 ### Storage and retention
 
-These are already written and are not placeholders: optional storage; $9.99/month for 10 GB; $2/month per extra 10 GB; cancel anytime; no separate cancellation fee; three full-storage choices with **stop new uploads as the default**; warnings at 80% and at 100%; delete-oldest warns first and points people to Download All; at least 30 days’ warning to the billing email before media deletion when paid storage stops; Download All during that warning; no indefinite retention.
+Already written and not placeholders: $9.99/month for 10 GB; $2/month per extra 10 GB; cancel anytime; no separate cancellation fee; three full-storage choices with stop new uploads as the default; warnings at 80% and 100%; delete-oldest warns first; at least 30 days’ warning before media deletion when paid storage stops; Download All during that warning; no indefinite retention.
 
-Still open:
+Filled as defaults on 15 November 2026 (Andrew to confirm):
 
-- [CAN A WEDDING BE PUBLISHED WITH NO STORAGE SUBSCRIPTION — Andrew to confirm]
-- [WHEN A CANCELLATION TAKES EFFECT — Andrew to confirm] — end of the paid month, or immediately with no partial-month refund.
-- [WHETHER EXISTING SUBSCRIBERS KEEP THEIR PRICE — Andrew to confirm]
-- [HOW TO REMOVE AN EXTRA 10 GB BLOCK — Andrew to fill]
-- [WHETHER NEW UPLOADS CONTINUE DURING THE 30-DAY WARNING — Andrew to confirm]
-- [WHAT HAPPENS TO NON-MEDIA PAGES AFTER STORAGE STOPS — Andrew to confirm] — schedule, story, seating, and similar text.
-- [HOW LONG BILLING AND SUPPORT EMAILS ARE KEPT — Andrew and a lawyer to fill]
+- Done (default) — a wedding can be published without storage, but guests cannot upload until storage is active. Setup does not include media hosting. The “optional” description of storage has been updated across all pages to reflect this rule.
+- Done (default) — cancellations take effect at end of current billing period. No partial-month refund. No separate cancellation fee.
+- Done (default) — existing subscribers keep their price for at least 12 months after a price increase is announced. At least 30 days’ email notice. After 12 months, new price may apply.
+- Done (default) — to remove an extra 10 GB block: go to admin or email support. Takes effect at start of next billing period if usage fits.
+- Done (default) — new uploads continue during the 30-day warning unless the wedding is at 100% and set to stop new uploads. Download All available throughout.
+- Done (default) — non-media pages (schedule, story, seating, and similar text) stay online in read-only form after the media warning window ends.
+- Done (default) — billing records kept 7 years; support emails kept 2 years.
 
 ### Notices, copyright, support operations
 
-- [HOW FAR AHEAD MATERIAL CHANGES ARE ANNOUNCED — Andrew and a lawyer to fill]
-- [DESIGNATED COPYRIGHT AGENT, IF YOU REGISTER ONE — Andrew to fill] — optional. Reports go to the support email until an agent exists.
-- [TYPICAL REPLY TIME — Andrew to fill]
-- [WEDDING-DAY SUPPORT HOURS — Andrew to fill] — or remove if there is no separate coverage.
+- Done (default) — material changes announced at least 30 days in advance by email to the billing or account email on file. Andrew to confirm.
+- **Still open — DMCA designated agent.** No agent is registered with the US Copyright Office yet. Register before launch ($6). Until then, copyright reports go to andrewreinhard0@gmail.com. A TODO span remains on terms.html, privacy.html, and support.html.
+- Done — typical reply time and wedding-day support: **confirmed by Andrew, 15 November 2026.** Support is 24/7 by email; handled automatically by an AI support agent, with replies typically within minutes to a few hours; human escalation for refunds and account issues; no separate wedding-day phone line; no promise of instant or around-the-clock human coverage.
 
 ## What a lawyer should review
 
@@ -112,4 +113,6 @@ Still open:
 
 ## Facts this draft deliberately does not invent
 
-No tax treatment, no card-statement descriptor, no definition of a change round, no setup-fee refund rule, no Signature quote expiry or deposit, no “storage included with setup” period, no partial-month refund rule, no grandfathered subscription price, no retention period for billing email, no effective date, and no second support email. Filled on 15 November 2026: the operator is Andrew Reinhard, a sole proprietor doing business as “The Big Day”; the business address is 148 Coleto Trail, Bastrop, TX 78602, US; the governing law is the law of Texas and disputes are heard in courts in Bastrop County, Texas; the contact email is andrewreinhard0@gmail.com.
+No effective date. No second support email. No phone number. No registered LLC. No registered trademark claim. No claim that Standard Contractual Clauses are already signed with every processor. No DMCA designated agent (see the open TODO in the copyright section).
+
+Filled on 15 November 2026: identity, address, governing law, courts, contact email, and the remaining policy defaults in PLACEHOLDERS.md. Support policy confirmed directly by Andrew on 15 November 2026. The DMCA designated-agent registration remains an open TODO.
