@@ -53,7 +53,7 @@ On 15 November 2026, identity, governing law, and courts were filled, and Andrew
 
 - Done — operator: Andrew Reinhard, a sole proprietor doing business as “The Big Day”. No LLC. Not “Andrew & Melissa Reinhard”.
 - Done — business address: 148 Coleto Trail, Bastrop, TX 78602, US.
-- Done — contact email: andrewreinhard0@gmail.com. Andrew confirmed this inbox. The optional second-email placeholder was removed. No second email.
+- Done — contact email: thebigday.support@gmail.com. Andrew confirmed this inbox. The optional second-email placeholder was removed. No second email.
 
 ### Law and disputes
 
@@ -91,8 +91,8 @@ Filled as defaults on 15 November 2026 (Andrew to confirm):
 ### Notices, copyright, support operations
 
 - Done (default) — material changes announced at least 30 days in advance by email to the billing or account email on file. Andrew to confirm.
-- **Still open — DMCA designated agent.** No agent is registered with the US Copyright Office yet. Register before launch ($6). Until then, copyright reports go to andrewreinhard0@gmail.com. A TODO span remains on terms.html, privacy.html, and support.html.
-- Done — typical reply time and wedding-day support: **confirmed by Andrew, 15 November 2026.** Support is 24/7 by email; handled automatically by an AI support agent, with replies typically within minutes to a few hours; human escalation for refunds and account issues; no separate wedding-day phone line; no promise of instant or around-the-clock human coverage.
+- Done — copyright/content reports: Andrew decided on 16 November 2026 not to register a DMCA agent. Pages say: “Email thebigday.support@gmail.com to report content and we’ll remove it.”
+- Done — typical reply time and wedding-day support: **confirmed by Andrew, 15 November 2026.** Support is 24/7 by email; handled automatically by an AI support agent, with replies typically within minutes to a few hours; human escalation for refunds and account issues; phone shown only on support.html via the {{SUPPORT_PHONE}} placeholder; no promise of instant or around-the-clock human coverage.
 
 ## What a lawyer should review
 
@@ -105,7 +105,6 @@ Filled as defaults on 15 November 2026 (Andrew to confirm):
 - COPPA framing: the app is not directed to children under 13; photos of children uploaded by adults are treated as the uploader’s content, with a removal path; a parent can email to delete data a child provided.
 - Whether a separate “Do Not Sell or Share” link is required. The draft says we do not sell or share for cross-context ads, and it gives the support email for requests.
 - International transfers and whether an EU or UK representative is required. No safeguard is claimed.
-- Whether a DMCA designated agent must be registered before launch.
 - Expo is named because the app registers an Expo push token and Expo relays it to Apple or Google. Remove that sentence if push does not ship.
 - Film Camera, comments, likes, captions, on-device reminders, and the offline upload queue are described because the current app does those things. Recheck them against the store build.
 - Open-Meteo is called from the guest’s device with the venue’s coordinates. The policy says we do not read device GPS, and that Open-Meteo still sees a normal request IP address. Confirm that is the privacy wording you want.
@@ -113,6 +112,6 @@ Filled as defaults on 15 November 2026 (Andrew to confirm):
 
 ## Facts this draft deliberately does not invent
 
-No effective date. No second support email. No phone number. No registered LLC. No registered trademark claim. No claim that Standard Contractual Clauses are already signed with every processor. No DMCA designated agent (see the open TODO in the copyright section).
+No effective date. No second support email. No phone number committed (support.html uses the {{SUPPORT_PHONE}} placeholder, filled at publish time). No registered LLC. No registered trademark claim. No claim that Standard Contractual Clauses are already signed with every processor. No DMCA designated agent (Andrew decided not to register one).
 
-Filled on 15 November 2026: identity, address, governing law, courts, contact email, and the remaining policy defaults in PLACEHOLDERS.md. Support policy confirmed directly by Andrew on 15 November 2026. The DMCA designated-agent registration remains an open TODO.
+Filled on 15 November 2026: identity, address, governing law, courts, contact email, and the remaining policy defaults in PLACEHOLDERS.md. Support policy confirmed directly by Andrew on 15 November 2026. Contact email changed to thebigday.support@gmail.com and the DMCA TODO resolved on 16 November 2026.
