@@ -1,5 +1,7 @@
 # Placeholders Andrew must fill
 
+**Status 17 November 2026:** Andrew approved the pages and they are published (effective 17 November 2026). The DMCA-agent and lawyer-review notes below are history. The card statement descriptor is REINHARD (shared Stripe account). Supabase was replaced by Cloudflare D1.
+
 Andrew filled identity, address, governing law, and the contact email on 15 November 2026, and confirmed the 24/7 AI email support policy the same day. The other remaining policy gaps were filled on 15 November 2026 with conservative defaults, each labeled “default — Andrew to confirm.” The designated copyright agent is still an open TODO (register with the US Copyright Office, $6, before launch). A lawyer review is still required before publish. These pages are still drafts and are not in force.
 
 Draft date: 15 November 2026. These pages are not in force. Do not publish this branch to GitHub Pages, and do not paste the URLs into App Store Connect or Google Play, until every required item below is filled and a lawyer has reviewed the pages.
@@ -8,7 +10,7 @@ Draft date: 15 November 2026. These pages are not in force. Do not publish this 
 
 - [x] **Operator** — Andrew Reinhard, a sole proprietor doing business as "The Big Day". No LLC. Not "Andrew & Melissa Reinhard". Filled 15 November 2026. Pages: all.
 - [x] **Business address** — 148 Coleto Trail, Bastrop, TX 78602, US. Filled 15 November 2026. Pages: privacy, terms, refunds, and support. Home names the operator and does not repeat the street.
-- [x] **Contact email** — andrewreinhard0@gmail.com. Andrew confirmed this inbox. The optional second-email placeholder was removed. No second email. Filled 15 November 2026. Pages: all.
+- [x] **Contact email** — thebigday.support@gmail.com. Andrew confirmed this inbox. The optional second-email placeholder was removed. No second email. Filled 15 November 2026. Pages: all.
 
 ## Law and disputes
 
@@ -42,8 +44,9 @@ Draft date: 15 November 2026. These pages are not in force. Do not publish this 
 ## Notices, copyright, support operations
 
 - [x] **How far ahead material changes are announced** — At least 30 days in advance by email to the billing or account email on file. The date at the top of the page will also change. Default applied 15 November 2026 — Andrew to confirm. Pages: privacy, terms, refunds.
-- [ ] **Designated copyright agent** — No designated DMCA agent is registered with the US Copyright Office yet. **TODO: register a DMCA designated agent with the US Copyright Office ($6) before launch.** Until one is registered, copyright reports go to andrewreinhard0@gmail.com with the wedding code, a description of the work, where it appears, and the reporter's contact information. A clearly marked TODO span (`<span class="ph">[TODO — register a DMCA designated agent with the US Copyright Office ($6) before launch]</span>`) remains on terms.html, privacy.html, and support.html. Pages: privacy, terms, support.
-- [x] **Typical reply time and wedding-day support** — Support is 24/7 by email at andrewreinhard0@gmail.com. Emails are read and handled automatically by an AI support agent, with replies typically within minutes to a few hours. Anything that needs a human (including refunds and account issues) is escalated. No separate wedding-day phone line. No promise of instant or around-the-clock human coverage. **Confirmed by Andrew, 15 November 2026.** No "to confirm" label. Pages: terms, support.
+- [x] **Copyright / content reports** — Andrew decided on 16 November 2026 not to register a DMCA designated agent. All pages now say: “Email thebigday.support@gmail.com to report content and we’ll remove it.” Pages: privacy, terms, support.
+- [x] **Support phone** — Shown only on support.html as the placeholder `{{SUPPORT_PHONE}}`. Substitute the real number at publish time from the SUPPORT_PHONE secret. Never commit the number.
+- [x] **Typical reply time and wedding-day support** — Support is 24/7 by email at thebigday.support@gmail.com. Emails are read and handled automatically by an AI support agent, with replies typically within minutes to a few hours. Anything that needs a human (including refunds and account issues) is escalated. Phone only on support.html via {{SUPPORT_PHONE}}. No promise of instant or around-the-clock human coverage. **Confirmed by Andrew, 15 November 2026.** No "to confirm" label. Pages: terms, support.
 
 ## Already decided in the draft (do not "fill" these; a lawyer still reviews them)
 
@@ -53,6 +56,6 @@ Draft date: 15 November 2026. These pages are not in force. Do not publish this 
 - Full-storage choices: delete oldest (warn first; remind Download All), stop new uploads (the default), or auto-add blocks. Warnings at 80% and at 100% for all three.
 - At least 30 days' warning to the billing email before media deletion when paid storage stops, with Download All available during that warning. No indefinite retention.
 - Guests: no account, optional display name, random on-device guest id, self-delete, couple and admin moderation.
-- Contact email in use: andrewreinhard0@gmail.com.
+- Contact email in use: thebigday.support@gmail.com.
 - Couples pay on the website via Stripe, not as an in-app purchase. Full card numbers are not received.
 - Processors named: Stripe, Cloudflare R2, Supabase, Apple, Google, Expo (push relay only), Open-Meteo.

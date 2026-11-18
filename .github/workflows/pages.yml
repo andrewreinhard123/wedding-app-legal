@@ -1,0 +1,43 @@
+name: Deploy legal pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build site and fill the support phone from the SUPPORT_PHONE secret
+        env:
+          SUPPORT_PHONE: ${{ secrets.SUPPORT_PHONE }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SUPPORT_PHONE}" ]; then echo "SUPPORT_PHONE secret is missing" >&2; exit 1; fi
+          digits="$(printf "%s" "$SUPPORT_PHONE" | tr -cd "0-9")"
+          if [ "${#digits}" -eq 11 ] && [ "${digits:0:1}" = "1" ]; then digits="${digits:1}"; fi
+          tel="+1${digits}"
+          mkdir -p _site
+          cp ./*.html styles.css _site/
+          touch _site/.nojekyll
+          sed -i "s|{{SUPPORT_PHONE_TEL}}|${tel}|g; s|{{SUPPORT_PHONE}}|${SUPPORT_PHONE}|g" _site/*.html
+          if grep -l "{{" _site/*.html; then echo "Unfilled placeholder" >&2; exit 1; fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

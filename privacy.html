@@ -8,8 +8,6 @@
 </head>
 <body>
 
-<p class="banner"><strong>Draft for review — 15 November 2026.</strong> These pages are drafts. They are not legal advice. They are not in force. They take effect only after Andrew and a lawyer review them and the highlighted placeholders are filled in.</p>
-
 <nav class="site" aria-label="Legal pages">
   <a href="./index.html">Home</a> ·
   <a href="./privacy.html">Privacy Policy</a> ·
@@ -23,8 +21,8 @@
   The Big Day (App Store display name: “The Big Day: Wedding Guest App”)<br>
   Operator: Andrew Reinhard, a sole proprietor doing business as “The Big Day”<br>
   Business address: 148 Coleto Trail, Bastrop, TX 78602, US<br>
-  Draft date: <strong>15 November 2026</strong>. This is not an effective date. The policy is not in force.<br>
-  Contact: <a href="mailto:andrewreinhard0@gmail.com">andrewreinhard0@gmail.com</a>
+  Effective date: <strong>17 November 2026</strong>.<br>
+  Contact: <a href="mailto:thebigday.support@gmail.com">thebigday.support@gmail.com</a>
 </p>
 
 <p>The Big Day is one app and website for many weddings. Each couple has a code and a link. Guests who enter that code can see that wedding’s schedule, story, seating, and photo and video feed. This policy explains what information the product handles. The <a href="./terms.html">Terms of Service</a> and the <a href="./refunds.html">Refund and Cancellation Policy</a> explain the rules and the fees.</p>
@@ -36,7 +34,7 @@
   <li>A random id stored on the device lets a guest manage and delete their own posts.</li>
   <li>We do not sell personal data. We do not show ads. We do not use data for advertising or cross-app tracking.</li>
   <li>Couples pay on the website through Stripe. We do not receive full card numbers.</li>
-  <li>Photo and video files are stored on Cloudflare R2. Wedding details and gallery rows are stored on Supabase.</li>
+  <li>Photo and video files are stored on Cloudflare R2. Wedding details and gallery rows are stored in a Cloudflare D1 database.</li>
   <li>Download All is a core feature. We do not keep wedding media indefinitely. See section 8.</li>
   <li>The app is not directed to children under 13.</li>
 </ul>
@@ -172,20 +170,19 @@
 <h2>9. Moderation and reports</h2>
 <p>The couple and platform admins may hide or remove posts. We may remove content that is illegal, pornographic, harassing, threatening, or infringing, and other content that breaks the <a href="./terms.html">Terms of Service</a>.</p>
 <p>Guests can delete their own posts from the device that created them.</p>
-<p>To report a problem, email <a href="mailto:andrewreinhard0@gmail.com">andrewreinhard0@gmail.com</a>. Include the wedding code, a description of the post, and a way to reach you. Please do not send full card numbers. How to write the email is also on the <a href="./support.html">support page</a>.</p>
-<p>To report copyright infringement, use the same address. No designated DMCA agent is registered with the US Copyright Office yet. <span class="ph">[TODO — register a DMCA designated agent with the US Copyright Office ($6) before launch]</span></p>
+<p>To report a problem, email <a href="mailto:thebigday.support@gmail.com">thebigday.support@gmail.com</a>. Include the wedding code, a description of the post, and a way to reach you. Please do not send full card numbers. How to write the email is also on the <a href="./support.html">support page</a>.</p>
+<p>Email <a href="mailto:thebigday.support@gmail.com">thebigday.support@gmail.com</a> to report content and we’ll remove it.</p>
 
 <h2>10. Children</h2>
 <p>The app is not directed to children under 13, or under the minimum age in the user’s region if that age is higher. We do not knowingly collect personal data from children under 13.</p>
 <p>Parents and guardians should supervise any use by minors at a wedding. A wedding app is often opened by adults around children. An adult may upload a photo that includes a child. That photo is the uploader’s content. A parent or guardian can ask us to remove a specific photo of their child.</p>
-<p>If a child under 13 provided data — for example a display name, a comment, or a photo — email <a href="mailto:andrewreinhard0@gmail.com">andrewreinhard0@gmail.com</a>. Include the wedding code, the child’s display name if any, and which posts to delete. We will delete that data. We may ask for enough detail to find the right wedding and the right posts, because there is no child account to look up.</p>
+<p>If a child under 13 provided data — for example a display name, a comment, or a photo — email <a href="mailto:thebigday.support@gmail.com">thebigday.support@gmail.com</a>. Include the wedding code, the child’s display name if any, and which posts to delete. We will delete that data. We may ask for enough detail to find the right wedding and the right posts, because there is no child account to look up.</p>
 
 <h2>11. Service providers</h2>
 <p>These providers process data for us so the product can run. They are not allowed to use it for their own advertising. We name the providers we actually plan to use.</p>
 <ul>
   <li><strong>Stripe</strong> — payment processing for couples’ setup fees and storage subscriptions. Couples pay on the website, not inside the iOS or Android app. We do not receive full card numbers.</li>
-  <li><strong>Cloudflare R2</strong> — storage of photo and video files. Views and downloads are served from R2.</li>
-  <li><strong>Supabase</strong> — wedding metadata and gallery row metadata (for example captions, display names, guest ids, comments, likes, moderation flags, and push tokens). Supabase is not the long-term store for the media files.</li>
+  <li><strong>Cloudflare</strong> — R2 stores photo and video files, and views and downloads are served from R2. Cloudflare Workers and a D1 database run the app’s backend and hold wedding metadata and gallery row metadata (for example captions, display names, guest ids, comments, likes, moderation flags, and push tokens).</li>
   <li><strong>Apple and Google</strong> — distribution of the iOS and Android apps and, if a guest turns notifications on, delivery of pushes. They handle store payments if any. Our setup fees and storage subscriptions are intended to be purchased on the web, not as in-app purchases. The stores’ own privacy policies cover a store account.</li>
   <li><strong>Expo</strong> — if a guest turns notifications on, the app registers an Expo push token. Expo relays that notification to Apple or Google. We use this only for wedding alerts the person opted into. If push shipping changes, this sentence must be updated.</li>
   <li><strong>Open-Meteo</strong> — venue weather only, using the wedding venue’s coordinates, never the guest’s device location. See section 7 for the IP address that a normal web request reveals.</li>
@@ -194,22 +191,22 @@
 <h2>12. No sale, no ads, no cross-app tracking</h2>
 <p>We do not sell personal data. We do not share it for cross-context behavioral advertising. We do not show advertising in the app. We do not track guests or couples across other companies’ apps or websites for ads.</p>
 <p>We do share information in the ways this policy describes: with guests of the same wedding, with the couple who hosts it, with the providers in section 11, with someone you ask us to contact, and when the law requires it. We may also share information to investigate abuse, enforce our terms, or protect guests, couples, and the service.</p>
-<p>Where a U.S. state privacy law uses the words “sale” or “share,” we do not sell or share personal data as those laws define those words. To ask a question or to submit a request, email <a href="mailto:andrewreinhard0@gmail.com">andrewreinhard0@gmail.com</a>.</p>
+<p>Where a U.S. state privacy law uses the words “sale” or “share,” we do not sell or share personal data as those laws define those words. To ask a question or to submit a request, email <a href="mailto:thebigday.support@gmail.com">thebigday.support@gmail.com</a>.</p>
 
 <h2>13. International transfers and security</h2>
 <p>We and our providers may process information in the United States and in other countries where those providers operate. Those countries may have different data-protection laws from the place where you live.</p>
-<p>Personal data is processed in the United States. Where a transfer safeguard is required for data from the EEA, the UK, or another region with transfer rules, the intended mechanism is the European Commission's Standard Contractual Clauses and the UK equivalent, to the extent they are needed and available with our processors. These clauses are not claimed to be in place with every processor at the time this draft was written.</p>
+<p>Personal data is processed in the United States. Where a transfer safeguard is required for data from the EEA, the UK, or another region with transfer rules, the intended mechanism is the European Commission's Standard Contractual Clauses and the UK equivalent, to the extent they are needed and available with our processors. These clauses are not claimed to be in place with every processor as of the effective date.</p>
 <p>The service is operated from the United States and is not directed at people in the EEA or the UK. No EU or UK representative is appointed.</p>
 <p>We use reasonable technical and organizational safeguards for the data we handle. Traffic to our providers is encrypted in transit. Access to billing records and admin tools is limited. No method of transmission or storage is perfectly secure. A shared wedding code, a forwarded link, or an unlocked phone can expose a wedding even when our systems work as designed.</p>
 
 <h2>14. Your choices and rights</h2>
 <p>Guests can skip the display name, decline notifications, choose not to upload, and delete their own posts on the device that posted them. Couples can cancel storage as described in the <a href="./refunds.html">Refund and Cancellation Policy</a>, change what happens when storage is full, and email us about their wedding pages.</p>
 <p>Depending on where you live, you may have rights to access, correct, delete, or receive a copy of personal data about you, and to object to or restrict certain processing. You may have the right to appeal our decision. You may have the right to complain to a data protection authority or other regulator. You will not be discriminated against for making a request, where the law forbids that. Some laws let you use an authorized agent. We may ask the agent for proof.</p>
-<p>Email <a href="mailto:andrewreinhard0@gmail.com">andrewreinhard0@gmail.com</a> to use these rights. Include the wedding code and enough detail for us to find the right information. Guests do not have accounts, so we may not be able to find a post from a name alone. We may need to confirm that you are the person the request is about, or the parent or guardian of a child.</p>
-<p>We will respond within the time the applicable law requires. This draft does not invent a shorter internal deadline.</p>
+<p>Email <a href="mailto:thebigday.support@gmail.com">thebigday.support@gmail.com</a> to use these rights. Include the wedding code and enough detail for us to find the right information. Guests do not have accounts, so we may not be able to find a post from a name alone. We may need to confirm that you are the person the request is about, or the parent or guardian of a child.</p>
+<p>We will respond within the time the applicable law requires.</p>
 
 <h2>15. Changes</h2>
-<p>We may update this policy. The date at the top will change when we do. This copy is a draft dated 15 November 2026 and is not in force.</p>
+<p>We may update this policy. The date at the top will change when we do.</p>
 <p>We announce material changes at least 30 days in advance by email to the billing or account email we have on file. The date at the top of the page will also change.</p>
 <p>When a later version is actually in force, continuing to use the service after the new date means you accept the update, where the law allows that kind of acceptance. If you do not agree, stop using the service. Couples can cancel storage as described on the refunds page.</p>
 
@@ -218,13 +215,13 @@
 <p>
   Andrew Reinhard, a sole proprietor doing business as “The Big Day”<br>
   148 Coleto Trail, Bastrop, TX 78602, US<br>
-  <a href="mailto:andrewreinhard0@gmail.com">andrewreinhard0@gmail.com</a>
+  <a href="mailto:thebigday.support@gmail.com">thebigday.support@gmail.com</a>
 </p>
 <p>The email address above is the contact already used on the existing public legal pages.</p>
 
 <footer class="site">
   <p><a href="./index.html">Home</a> · <a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Service</a> · <a href="./refunds.html">Refunds</a> · <a href="./support.html">Support</a></p>
-  <p>The Big Day · Draft dated 15 November 2026 · Not in force</p>
+  <p>The Big Day · Effective 17 November 2026</p>
 </footer>
 
 </body>
