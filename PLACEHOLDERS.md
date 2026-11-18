@@ -1,5 +1,7 @@
 # Placeholders Andrew must fill
 
+**Status 17 November 2026:** Andrew approved the pages and they are published (effective 17 November 2026). The DMCA-agent and lawyer-review notes below are history. The card statement descriptor is REINHARD (shared Stripe account). Supabase was replaced by Cloudflare D1.
+
 Andrew filled identity, address, governing law, and the contact email on 15 November 2026, and confirmed the 24/7 AI email support policy the same day. The other remaining policy gaps were filled on 15 November 2026 with conservative defaults, each labeled “default — Andrew to confirm.” The designated copyright agent is still an open TODO (register with the US Copyright Office, $6, before launch). A lawyer review is still required before publish. These pages are still drafts and are not in force.
 
 Draft date: 15 November 2026. These pages are not in force. Do not publish this branch to GitHub Pages, and do not paste the URLs into App Store Connect or Google Play, until every required item below is filled and a lawyer has reviewed the pages.

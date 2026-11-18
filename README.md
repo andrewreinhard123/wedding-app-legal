@@ -1,8 +1,8 @@
 # The Big Day — legal and support pages
 
-Andrew filled identity, address, governing law, and the contact email on 15 November 2026. A lawyer review and the remaining placeholders are still required before publish.
+Published 17 November 2026 (effective date) after Andrew approved the pages. Live at https://andrewreinhard123.github.io/wedding-app-legal/.
 
-Draft date: **15 November 2026**. These pages are drafts for Andrew and a lawyer. They are not legal advice. They are **not in force**. Do not publish this branch, and do not paste the URLs below into App Store Connect or Google Play, until the placeholders are filled and a lawyer has reviewed the text.
+GitHub Pages builds from `master` with `.github/workflows/pages.yml`. The workflow copies the static files to `_site` and fills `{{SUPPORT_PHONE}}` / `{{SUPPORT_PHONE_TEL}}` on support.html from the repository secret `SUPPORT_PHONE`. Never commit the number.
 
 This folder replaces the older Andrew & Melissa one-wedding pages (`index.html`, `privacy.html`, `support.html`) with product-level pages for **The Big Day** (App Store display name: “The Big Day: Wedding Guest App”).
 
